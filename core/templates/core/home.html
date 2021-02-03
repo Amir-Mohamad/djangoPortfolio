@@ -7,7 +7,7 @@
             <!-- Masthead Avatar Image-->
             <img class="masthead-avatar mb-5" src="{% static 'assets/img/avataaars.svg' %}" alt="" />
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+            <h1 class="masthead-heading text-uppercase mb-0">Amir-Mohamad</h1>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
@@ -101,15 +101,11 @@
             </div>
             <!-- About Section Content-->
             <div class="row">
-                <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                <div class="col-lg-4 ml-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, perspiciatis. Consequatur assumenda repellendus, veniam sint suscipit, hic necessitatibus ipsam quis eligendi vero tempore architecto! Voluptas voluptatem laboriosam ratione optio vel.<a href="https://megacoders.ir"></a></p></div>
+                <div class="col-lg-4 mr-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi repellendus assumenda officiis nam aliquam doloremque id voluptatum dolores asperiores molestiae?</p></div>
             </div>
             <!-- About Section Button-->
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                    <i class="fas fa-download mr-2"></i>
-                    Free Download!
-                </a>
             </div>
         </div>
     </section>
@@ -127,7 +123,6 @@
             <!-- Contact Section Form-->
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
                     <form method="POST" action="{% url 'core:home' %}" id="contactForm" name="sentMessage" novalidate>
                         {% csrf_token %}
                         <div class="control-group">
